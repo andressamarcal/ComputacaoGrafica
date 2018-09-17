@@ -69,8 +69,9 @@ class TesteDialogs(object):
 
 		cv2.imshow("Imagem Original",	imgOriginal)
 		cv2.imshow("Imagem Tratada",	imgTratada)
-		cv2.waitKey(0)
-		cv2.destroyAllWindows('show')
+		
+		cv2.waitKey(10000)
+		cv2.destroyAllWindows()
 
 
 	def testeOpenFileName(self):
@@ -80,7 +81,8 @@ class TesteDialogs(object):
 
 		cv2.imshow("Original",	imgOriginal)
 		cv2.imshow("Tratada",	imgTratada)
-		cv2.waitKey(0)
+		
+		cv2.waitKey(10000)
 		cv2.destroyAllWindows()
 	
 
@@ -103,7 +105,7 @@ class TesteDialogs(object):
 		
 		janela = tk.Tk()
 		lb1 = Label(janela, text='Quantidade de Pixels Preto na imagem = \n\n' + str(totalPixelsPreto))
-		lb2 = Label(janela, text='Quantidade de Pixels Brancos na imagem = ' + str(totalPixelsBranco))
+		lb2 = Label(janela, text='\nQuantidade de Pixels Brancos na imagem = \n\n' + str(totalPixelsBranco))
 		
 		lb1.grid(row=1000, column=1000)
 		lb2.grid(row=2000, column=1000)

@@ -16,5 +16,5 @@ for	x	in	range(0,	499):
         else:
             totalPixelsPreto	+=	1
 
-print(totalPixelsBranco)
-print(totalPixelsPreto)
+print('Total de Pixels Brancos: ' +str(totalPixelsBranco))
+print('Total de Pixels Pretos: ' +str(totalPixelsPreto))
