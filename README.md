@@ -11,6 +11,7 @@ Linux:
 
 ```sh
 pip install -r requirements.txt
+cd interface
 python3 interface.py
 ```
 
@@ -18,5 +19,6 @@ Windows:
 
 ```sh
 pip install -r requirements.txt
+cd interface
 python3 interface.py
 ```
