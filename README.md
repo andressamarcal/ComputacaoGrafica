@@ -1,8 +1,6 @@
 # Computação Gráfica e Processamento de Imagens com Python
 > Projeto da disciplina Computação Gráfica e Processamento de Imagens, onde será usado Python e suas bibliotecas Pillow e OpenCv para tratamento e manipulação de imagens. Também trabalharemos com Tkinter para utilização da interface gráfica.
 
-[![Python Version][python-image]][python-url]
-
 O programa irá aplicar filtros de Media, Mediana e Histograma em imagens.
 
 ![](../prog_compgra.png)
