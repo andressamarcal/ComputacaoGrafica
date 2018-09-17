@@ -23,6 +23,6 @@ pip install -r requirements.txt
 python3 interface.py
 ```
 
-[python-image]: https://img.shields.io/npm/v/datadog-metrics.svg?style=flat-square
+[python-image]:
 [python-url]: https://www.python.org/downloads/release/python-360/
 
