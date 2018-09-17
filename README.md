@@ -20,7 +20,3 @@ Windows:
 pip install -r requirements.txt
 python3 interface.py
 ```
-
-[python-image]:
-[python-url]: https://www.python.org/downloads/release/python-360/
-
