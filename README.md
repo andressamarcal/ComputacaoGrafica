@@ -7,16 +7,6 @@ O programa irá aplicar filtros de Media, Mediana e Histograma em imagens.
 
 ## Instalação
 
-Linux:
-
-```sh
-pip install -r requirements.txt
-cd interface
-python3 interface.py
-```
-
-Windows:
-
 ```sh
 pip install -r requirements.txt
 cd interface
